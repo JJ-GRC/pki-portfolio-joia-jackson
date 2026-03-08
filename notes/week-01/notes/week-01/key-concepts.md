@@ -6,7 +6,7 @@ Focus on:
 •	Verification
 •	Trust chain
 PKI- public key infrastructure
-It's about certificate authorities verifying websites or systems. There are 3 types of CAs- the root, the intermediate, 
+The problem PKI solves is how to send information back and forth on the web safely. It's about certificate authorities verifying websites or systems. There are 3 types of CAs- the root, the intermediate, 
 and the leaf. Trust flows down, and verification flows up through these. Through this verification process, they verify 
 their identity, give them a unique identifier, sign the certificate, and assign a validity expiration date. Once the 
 CA has done the site or system so that it can send information back and forth through public and private keys. The public key 
