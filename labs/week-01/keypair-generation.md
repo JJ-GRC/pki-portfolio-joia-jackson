@@ -9,6 +9,7 @@ If using OpenSSL:
 2. Save it as:
 
 **assets/screenshots/week-01/keypair-generation.png**
+  COMPLETED
 
 3. Embed the screenshot below:
 
@@ -20,22 +21,25 @@ If using a browser-based generator, capture the generated key pair screen (redac
 
 ## Key Identification
 **Which file is the public key?**
-<!-- Example: public.key -->
-
+  The public and private keys are clearly labeled. Not sure if I'm missing something here. 
 **Which file is the private key?**
-<!-- Example: private.key -->
+  The public and private keys are clearly labeled. Not sure if I'm missing something here. 
 
 ---
 
 ## Key Properties
 Briefly describe:
 - What makes the public key safe to share
+    The information within the public key isn't sensitive
 - What makes the private key sensitive
+    The information the private key unlocks is sensitive and we need to protect it
 
 ---
 
 ## Security Scenario
 What would happen if someone obtained your private key?
+  If someone obtained the private key they could access the information we are trying to protect which could cause
+  potential harm to the customer or company
 
 Explain the risk in terms of:
   - Identity
@@ -48,19 +52,21 @@ Explain the risk in terms of:
 Document three observations from this lab.
 
 ### Observation 1
-<!-- What did you notice about key generation? -->
+  I didn't notice anything. Not sure what I'm supposed to be observing. 
 
 ### Observation 2
-<!-- What did you notice about key size or format? -->
+  The private key is longer, but other than that I didn't really notice much
 
 ### Observation 3
-<!-- What did you notice about how the keys differ? -->
-
+  Nothing else observed
 ---
 
 ## Reflection
 In 3–5 sentences, explain:
 
 Why must the private key remain secret in a PKI system?
+  If someone obtained the private key they could access the information we are trying to protect which could cause
+  potential harm to the customer or company
+
 
 Focus on how identity is tied to possession of the private key.
