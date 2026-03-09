@@ -15,26 +15,25 @@ assets/screenshots/week-01/certificate-inspection.png
 ## Website Information
 
 **Website inspected:**  
-<!-- Enter full URL -->
-
+    www.google.com
+  
 **Issuer (Certificate Authority):**  
-<!-- Example: DigiCert, Let's Encrypt, GlobalSign -->
-
+    Google Trust Services (Intermediate: WR2)
+  
 **Valid from:**  
-<!-- Start date -->
-
+    February 2, 2026
+  
 **Valid until:**  
-<!-- Expiration date -->
-
+    April 27, 2026
+    
 **Signature algorithm:**  
-<!-- Example: sha256WithRSAEncryption -->
-
+    SHA-256
 ---
 
 ## Subject Alternative Names (SAN Entries)
 
 List at least 2–3 SAN entries:
-
+    SAN entries are tucked inside the Extensions folder.
 - 
 - 
 - 
@@ -46,18 +45,17 @@ List at least 2–3 SAN entries:
 Document three observations about the certificate.
 
 ### Observation 1
-<!-- What did you notice? -->
-
+  SAN entries are tucked inside the Extensions folder. I don't like that. Everything should be listed on the            certificate. 
+  
 ### Observation 2
-<!-- What did you notice? -->
-
+  Self-Managed CA: The issuer is "Google Trust Services," meaning Google acts as its own Certificate Authority rather   than using a third party like DigiCert
+  
 ### Observation 3
-<!-- What did you notice? -->
-
+  The validity period is short, about 2.5 months, which is consistent with modern best practices to reduce exposure     if a certificate is compromised.
 ---
 
 ## Reflection
 
 Based on your inspection, explain how this certificate contributes to secure HTTPS communication.
-
+  This certificate ensures that HTTPS connections to google.com and its subdomains are secure by enabling encrypted     communication between the browser and server. The certificate also authenticates that the server is genuinely         operated by Google, preventing man-in-the-middle attacks. Short-lived certificates and the use of strong              cryptographic algorithms (SHA-256) increase overall security and reduce vulnerability risk.
 (2–3 sentences)
