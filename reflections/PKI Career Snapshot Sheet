@@ -1,0 +1,97 @@
+Download: PKI Career Snapshot Sheet
+For each role below, include:
+A 2–3 sentence summary of what the role focuses on
+3–5 core responsibilities
+PKI knowledge provides leverage
+Roles:
+PKI Engineer/IAM Engineer/Security Operations/Cloud Security Engineer
+
+1. PKI Engineer
+  Role Summary: A PKI Engineer is the person who builds and manages the system that proves computers and websites 
+  are who they say they are. They make sure information traveling across the internet is protected and can’t easily 
+  be read or changed by attackers.
+Core Responsibilities:
+  • Create and manage digital certificates that help prove identity online
+  • Set up systems that encrypt information so it stays private
+  • Renew or replace certificates before they expire
+  • Fix problems when secure connections stop working
+  • Make sure the company follows rules for safe encryption
+Where PKI Creates Leverage:
+  PKI knowledge is the main skill for this job. It helps engineers understand how computers create secret keys, 
+  how certificates prove identity, and how systems check if they can trust each other. If something breaks in a
+  secure connection, this knowledge helps them figure out exactly why.
+
+2. IAM Engineer
+Role Summary:
+  An IAM Engineer controls who is allowed to access systems, apps, and data inside a company. Their job is to 
+  make sure the right people can get in and the wrong people cannot.
+Core Responsibilities:
+  • Set up login systems like single sign on and multi factor authentication
+  • Manage employee accounts and permissions
+  • Decide who should have access to certain systems or files
+  • Connect login systems to company apps and tools
+  • Watch for risky access like someone getting more permissions than they should
+Where PKI Creates Leverage:
+  PKI helps IAM engineers create stronger and safer login systems. Certificates can prove that a device or user 
+  is trusted. Understanding how certificates and trust work helps prevent fake logins and improves secure
+  authentication.
+
+3. Security Operations (SOC / Blue Team)
+Role Summary:
+  Security Operations teams watch over a company’s systems to detect cyberattacks. They look for unusual 
+  activity and respond quickly when something suspicious happens.
+Core Responsibilities:
+  • Monitor security alerts and system logs
+  • Investigate strange activity like unknown logins or malware
+  • Respond to security incidents and stop attacks
+  • Study how attackers behave so they can catch them faster
+  • Improve security monitoring tools
+Where PKI Creates Leverage:
+  PKI knowledge helps analysts understand how attackers might misuse certificates or encryption to hide 
+  their activity. Knowing how trust chains and certificates work helps them spot fake websites, suspicious 
+  certificates, or encrypted traffic used by malware.
+
+4. Cloud Security Engineer
+Role Summary:
+  A Cloud Security Engineer protects systems and data that are stored in cloud platforms like AWS or Azure.
+  Their job is to make sure cloud apps, services, and data stay secure.
+Core Responsibilities:
+  • Protect cloud systems and networks from attacks
+  • Set up strong access controls for cloud services
+  • Make sure data is encrypted when it moves or is stored
+  • Manage keys, secrets, and certificates used by cloud apps
+  • Watch for security mistakes or weaknesses in the cloud
+Where PKI Creates Leverage:
+  PKI helps cloud security engineers protect communication between cloud services. Certificates help
+  systems prove who they are before they share information. Understanding PKI makes it easier to secure APIs, 
+  websites, and apps running in the cloud.
+
+
+Prompt: Which PKI-related role feels most aligned with you right now — and why?
+Reference the key pair generation lab, certificate inspection lab, trust chain validation, and
+the career landscape lesson. Be specific and tie your answer to technical concepts.
+  The PKI related role that feels most aligned with me right now is IAM Engineer.
+
+  IAM focuses on managing identities and controlling access to systems. In real environments, this means 
+  making sure the right users and devices can securely log in while preventing unauthorized access. IAM 
+  engineers design authentication systems and access policies that protect sensitive data and company resources.
+  The key pair generation lab helped me understand how identity and authentication start at the cryptographic level. 
+  When a key pair is generated, there is a public key and a private key. The private key must stay secret, while 
+  the public key can be shared. This process is important because it allows systems to prove their identity and
+  establish secure communication. The certificate inspection lab helped me see how certificates store important 
+  identity information. A certificate includes details such as the subject, issuer, expiration date, and 
+  cryptographic algorithm. IAM systems rely on this information when verifying identities and establishing trust 
+  between systems. The trust chain validation lab showed how computers determine whether a certificate should be 
+  trusted. Systems check whether the certificate was issued by a trusted certificate authority and verify the chain
+  of trust up to a root authority. This process is important in IAM because authentication systems must confirm that 
+  a user, device, or service is legitimate before granting access. The career landscape lesson also showed that IAM 
+  roles sit at the center of identity, authentication, and access control in cybersecurity. Because modern 
+  organizations rely heavily on secure login systems, IAM engineers play a key role in protecting systems from 
+  unauthorized access. Overall, IAM feels like the best fit because it combines identity management with the 
+  underlying cryptography used in PKI. Understanding how keys, certificates, and trust chains work helps IAM 
+  engineers design stronger and more secure authentication systems.
+
+Identify one certification aligned to your chosen path.
+• Identify one technical skill to deepen in the next 30 days.
+• Identify one lab or project you could add to your GitHub portfolio.
+  
