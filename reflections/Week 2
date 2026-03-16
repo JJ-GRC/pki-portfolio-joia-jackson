@@ -1,0 +1,58 @@
+1. What did you learn this week?
+Explain in your own words: I learned that powershell is a system to give commands to create items. I also learned the
+rest of the TLS handshake. 
+
+The difference between confidentiality, integrity, and authenticity-
+confidentiality is keeping items safe, integrity is making sure none of the information has been tampered with
+and authenticity is making sure the right people have access to information
+
+How symmetric encryption works-
+symmetric encryption is one key. this usually follows asymmetric when a secure 
+connection has been established to move information with speed. One exact key is shared amongst two parties to encrypt
+and decrypt information. 
+
+How hashing detects tampering- 
+run a mathematical scan across both the file and digital signature to detect any 
+differences whatsoever 
+
+How digital signatures combine hashing and asymmetric cryptography-
+when the server sends a public key to the browser 
+and the browser checks the digital signature for authenticity- this includes name, validatiy dates, if the 
+certificate has been revoked, etc. once that has been validated, then the browser runs a hash against the 
+digital signature to see if it matches what's in the actual file. If all checks out it sends back a code and locks it. 
+Then this is the start of symmetric cryptography to pick up speed. 
+
+2. What concept was most challenging?
+Powershell for sure.I couldn't get some things to work and after hours of chat I just gave up. I understand the 
+concepts of TLS but I don't understand why I couldn't get my password to decrypt the file using the info you provided,
+then chat gave me something else and it finally worked, but then comparing files i couldn't get it to unlock. this 
+was the most frustrating process. Also it took me an ungodly amount of time to figure out that when copying and 
+pasting the text provided it was separating onto two lines and not on one fluid line thus giving me a ton of 
+error messages. 
+
+
+3. Where does this appear in real-world systems?
+My first thought goes to https connections. every website you visit goes through this TLS process, however it has
+me thinking how many actual times this process happens througout one transaction from the user perspective. I
+order a few items from amazon. Amazon doesn't sell products directly their just a marketplace. So not only is the 
+connection between me and amazon, but amazon and each supplier plus amazon and visa plus visa and my bank. Depending
+on what you are doing there could be hundreds of handshakes and plenty of opportunity to break through. Crazy.
+
+
+4. How would you explain this topic to a non-technical audience?
+We have to make sure that your communication on the web is safe. when you send messages back and forth we need to make
+sure you're talking to a safe site. we do this by checking digital signatures. Those digital signtatures are going to 
+tell us if it's really safe, who said it was safe, how long it's safe for and give us a code to double check on our own.
+whatever yhou send the site we're going to scramble it up so no one can see it.then the site you visit will have a 
+password to unscramble it. 
+
+5. What questions remain?
+List any uncertainties about:
+powershell i dont get it. I'll post some screenshots of what i have, but there's not anything other than that because
+i can't make it work.
+
+Key management
+Trust chains
+TLS
+Certificate signing
+Enterprise implementation
