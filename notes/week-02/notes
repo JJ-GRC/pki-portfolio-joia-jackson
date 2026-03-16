@@ -1,0 +1,28 @@
+Lab 1-
+Document the following in your Week 2 lab notes:
+
+Why the encrypted file is unreadable- for confidentiality
+
+What would happen if the wrong password were used- you wouldn't be able to decrypt the file
+
+What security property does symmetric encryption provide: confidentiality
+
+Why TLS uses symmetric encryption for data transfer- it's faster 
+
+lab 2-
+Why the hash changed after a small modification- it wasn't the same as the original file 
+
+Why hashing does NOT provide confidentiality- hashing doesn't keep anything confidential. It only runs a mathematical scan to see if things are the same in both the file and digital signature
+
+What security property hashing provides- integrity
+
+Where hashing is used in PKI systems- when they create and verify the digital signature 
+
+lab 3- 
+Why verification succeeds before tampering- this question didn't make any sense to me. I had to ask chat what it meant in lamen terms and it gave me this Why does the "seal" look perfect before anyone messes with the letter? Because the "mold" I used to make the seal (my Private Key) and the "template" you use to check it (my Public Key) are a perfect mathematical match. Since the paper didn't change, the "shape" of the message still fits the seal.
+
+Why verification fails after modification- because hashing let's me know it's been tampered with
+
+Why digital signatures require both hashing and asymmetric cryptography- for double security no one can claim something they're not with more than one control in place
+
+How this relates to certificate signing in PKI- CAs create the digital signature and that's what you hash against. 
