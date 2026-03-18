@@ -83,7 +83,7 @@ This lab was extremely difficult. The commands given didn't work and it took a g
 
 I also had a hard time with the password. I don't know why i couldn't get it to work and had to start over from ground 0 multiple times. This took HOURS to run one scan. Which left me defeated and frustrated. I didn't have time this week to move to lab 2 and 3. 
 
-I can't get this template right. I copied it over for labs and it seemed to change format just fine. I do this one for labs and it doesn't format correctly. I'm not sure why. 
+I can't get this template right. I copied it over for labs and it seemed to change format just fine. I do this one for reflections and it doesn't format correctly. I'm not sure why. 
 
 
 Examples:
