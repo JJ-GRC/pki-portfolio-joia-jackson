@@ -1,4 +1,4 @@
-# Lab — [Lab Title]
+# Lab — Symmetric encryption
 
 ## Overview
 The purpose of this lab was to learn how to create a file, encrypt it, decrypt it and verify if the data was the same. 
