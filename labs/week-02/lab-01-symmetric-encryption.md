@@ -21,32 +21,35 @@ Summarize the key steps you performed to complete the lab.
 Do **not copy the lab instructions**.  
 Describe what you actually did.
 
-1.  
-2.  
-3.  
+1.  Created the "Master" Folder- C:\Users\Joia\labs\02-week-02-cryptography-fundamentals\submissions\encrypted
+
+2.  Created the File Inside the master folder  New-Item -Path . -Name "plaintext.txt" -ItemType "file"
+
+3.  Initiated the encryption by running the OpenSSL enc command
+
+4.  Created a password - OpenSSL generated the 112-byte encrypted file: plaintext.txt.enc
+
+5.  Entered the password you created in Step 2, and the file decrypted
+
+6.  Ran ls to see the results. All three files existed, specifically noticing that your plaintext.decrypted.txt     matches   the original 80-byte size of your first file
+
+ 
 
 ---
 
 ## Results
 Include the important outputs or findings from the lab.
 
-Examples may include:
+assets/screenshots/assets/screenshots/week 2 lab 1.JPG
 
-- command outputs
-- certificate fields
-- verification results
-- screenshots (if applicable)
-
-If you include screenshots, store them in the **assets folder** and reference them here.
-
-Example:
-
-![Certificate Output](assets/certificate-output.png)
 
 ---
 
 ## Key Findings
 Document the most important observations from the lab.
+
+Verification of File Integrity-Since the byte counts match exactly, the decryption process successfully recovered the original data structure.
+
 
 Examples:
 
@@ -76,6 +79,12 @@ Examples:
 
 ## Challenges / Troubleshooting
 Document any issues encountered during the lab and how you resolved them.
+This lab was extremely difficult. The commands given didn't work and it took a god awful amount of time for me to figure out that copy and pasting them from the course was splitting the line and powershell wouldn't accept it. I had to use AI for majority of the assignment to give me the right commands. It was harder than it should have been. I also don't know where you would reference those commands in the future. Are they just known commands?
+
+I also had a hard time with the password. I don't know why i couldn't get it to work and had to start over from ground 0 multiple times. This took HOURS to run one scan. Which left me defeated and frustrated. I didn't have time this week to move to lab 2 and 3. 
+
+I can't get this template right. I copied it over for labs and it seemed to change format just fine. I do this one for labs and it doesn't format correctly. I'm not sure why. 
+
 
 Examples:
 
