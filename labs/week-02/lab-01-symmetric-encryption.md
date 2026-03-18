@@ -40,8 +40,7 @@ Describe what you actually did.
 ## Results
 Include the important outputs or findings from the lab.
 
-assets/screenshots/assets/screenshots/week 2 lab 1.JPG
-
+week 2 lab 1.JPG
 
 ---
 
