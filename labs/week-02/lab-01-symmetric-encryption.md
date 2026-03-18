@@ -1,17 +1,17 @@
 # Lab — [Lab Title]
 
 ## Overview
-Briefly describe the purpose of this lab in your own words.  
+The purpose of this lab was to learn how to create a file, encrypt it, decrypt it and verify if the data was the same. 
 What PKI concept or system behavior were you investigating?
-
+The concept is symmetric encryption
 ---
 
 ## Environment
 Document the environment used to complete the lab.
 
-- Operating System:
-- Terminal Used:
-- OpenSSL Version (if applicable):
+- Operating System: Windows 
+- Terminal Used: Windows PowerShell
+- OpenSSL Version (if applicable): 3.6.1
 
 ---
 
