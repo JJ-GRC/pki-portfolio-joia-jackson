@@ -20,7 +20,50 @@ Where hashing is used in PKI systems- when they create and verify the digital si
 
 lab 3- 
 Why verification succeeds before tampering- this question didn't make any sense to me. I had to ask chat what it meant in lamen terms and it gave me this Why does the "seal" look perfect before anyone messes with the letter? Because the "mold" I used to make the seal (my Private Key) and the "template" you use to check it (my Public Key) are a perfect mathematical match. Since the paper didn't change, the "shape" of the message still fits the seal.
+# Week X Lesson Notes — [Topic Title]
 
+## 1. Core Concept
+
+Explain the foundational concept clearly and practically.
+
+---
+
+## 2. Why It Matters
+
+How this concept appears in real enterprise environments.
+
+---
+
+## 3. Technical Breakdown
+
+- Definition
+- Components
+- Flow
+- Trust implications
+
+---
+
+## 4. Common Misconceptions
+
+- Misconception 1
+- Misconception 2
+
+---
+
+## 5. Where This Shows Up
+
+- Web security
+- Internal enterprise systems
+- Cloud environments
+- DevOps workflows
+
+---
+
+## Mental Model
+
+Short summary that ties the week back to:
+
+Identity + Trust + Verification
 Why verification fails after modification- because hashing let's me know it's been tampered with
 
 Why digital signatures require both hashing and asymmetric cryptography- for double security no one can claim something they're not with more than one control in place
