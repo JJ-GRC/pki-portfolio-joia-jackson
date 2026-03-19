@@ -9,9 +9,9 @@ What PKI concept or system behavior were you investigating?
 ## Environment
 Document the environment used to complete the lab.
 
-- Operating System:
-- Terminal Used:
-- OpenSSL Version (if applicable):
+- Operating System: Windows 11
+- Terminal Used: Windows Powershell
+- OpenSSL Version (if applicable): 3.6.1
 
 ---
 
@@ -26,12 +26,16 @@ Command: mkdir C:\Users\Joia\labs\02-week-02-cryptography-fundamentals\submissio
 2: Write these specific words and save them into a brand new file called message.txt 
 3: Create the "Digital Fingerprint" (The Hash) openssl dgst -sha256 message.txt > message.sha256.txt
 4: looked at the fingerprint cat message.sha256.txt
-5: Save the "New Fingerprint" to a New File
+5: Save the "New Fingerprint" to a New File openssl dgst -sha256 message.txt > message_tampered.sha256.txt
+6: Compared Both Fingerprints to Verify Data Integrity
 
 ---
 
 ## Results
 Include the important outputs or findings from the lab.
+
+assets/screenshots/assets/screenshots/week 2 lab 2 msg.JPG
+assets/screenshots/assets/screenshots/week 2 lab 2 sha.JPG
 
 
 ---
