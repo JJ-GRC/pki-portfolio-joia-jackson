@@ -1,4 +1,4 @@
-# Lab — [Lab Title]
+# Lab — lab-02-hashing-integrity
 
 ## Overview
 Briefly describe the purpose of this lab in your own words.  
