@@ -1,9 +1,16 @@
+ Week 2 Reflection
+
+
+## Prompts
+
 1. What did you learn this week?
-Explain in your own words: I learned that powershell is a system to give commands to create items. I also learned the
-rest of the TLS handshake. 
+I learned that powershell is a system to give commands to create items. I also learned the
+rest of the TLS handshake.
+
+I learned that the CA hashes the info in the certificate and locks it for authenticity based on 4 things ( name, public key, validity period and CA name) 
 
 The difference between confidentiality, integrity, and authenticity-
-confidentiality is keeping items safe, integrity is making sure none of the information has been tampered with
+Confidentiality is keeping items safe, integrity is making sure none of the information has been tampered with
 and authenticity is making sure the right people have access to information
 
 How symmetric encryption works-
@@ -30,29 +37,34 @@ was the most frustrating process. Also it took me an ungodly amount of time to f
 pasting the text provided it was separating onto two lines and not on one fluid line thus giving me a ton of 
 error messages. 
 
-
-3. Where does this appear in real-world systems?
+3. Where does this concept appear in real-world systems?
 My first thought goes to https connections. every website you visit goes through this TLS process, however it has
 me thinking how many actual times this process happens througout one transaction from the user perspective. I
 order a few items from amazon. Amazon doesn't sell products directly their just a marketplace. So not only is the 
 connection between me and amazon, but amazon and each supplier plus amazon and visa plus visa and my bank. Depending
 on what you are doing there could be hundreds of handshakes and plenty of opportunity to break through. Crazy.
 
-
 4. How would you explain this topic to a non-technical audience?
-We have to make sure that your communication on the web is safe. when you send messages back and forth we need to make
-sure you're talking to a safe site. we do this by checking digital signatures. Those digital signtatures are going to 
-tell us if it's really safe, who said it was safe, how long it's safe for and give us a code to double check on our own.
-whatever yhou send the site we're going to scramble it up so no one can see it.then the site you visit will have a 
-password to unscramble it. 
+Imagine you're sending a sealed envelope through the mail. Before you seal it, you weigh it on a very precise scale — down to the milligram — and write that weight on the outside.
+When your friend receives it, they weigh it again before opening it. If the weight matches exactly, nothing was added or removed. If it's even slightly off, they know someone tampered with it.
+That's a hash. Except instead of weight, it's a mathematical fingerprint of the data. And instead of "slightly off" — if anyone changes even one letter, the fingerprint looks completely different. Not close. Completely unrecognizable.
+
 
 5. What questions remain?
-List any uncertainties about:
-powershell i dont get it. I'll post some screenshots of what i have, but there's not anything other than that because
-i can't make it work.
+Powershell is not easy for me to follow along. thank god for chat gpt bc the instructions and the format don't allow me to easily follow along. 
+---
 
-Key management
-Trust chains
-TLS
-Certificate signing
-Enterprise implementation
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
