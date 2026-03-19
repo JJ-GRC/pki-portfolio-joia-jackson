@@ -1,39 +1,38 @@
-# Week X Lesson Notes — [Topic Title]
+Week 2 Lesson Notes — Cryptographic Hashing & Integrity
 
 ## 1. Core Concept
 
 Explain the foundational concept clearly and practically.
+Hashing is the process of taking any amount of data and running it through an algorithm to get a unique, fixed-length "digital fingerprint" called a hash. The most important rule of hashing is Integrity: if the data changes by even one single bit, the hash changes completely. It is a one-way street; you can turn a cow into a burger (hash), but you can't turn the burger back into a cow (original data).
 
 ---
 
 ## 2. Why It Matters
 
-How this concept appears in real enterprise environments.
+It matters because if the information gets intercepted, we have to know if it's been altered. 
 
 ---
 
 ## 3. Technical Breakdown
 
-- Definition
-- Components
-- Flow
-- Trust implications
+A hash function takes an input and produces a fixed-length alphanumeric string. 
+A file is run through a hash algorithm (e.g. SHA-256)
+It produces a unique fingerprint 
+That fingerprint is stored or transmitted alongside the file
+The recipient runs the same hash on the file they received
+If the two fingerprints match, the file is intact. If they differ, it was tampered with.
 
 ---
 
 ## 4. Common Misconceptions
-
-- Misconception 1
-- Misconception 2
+Hashing is encryption — it is not. Encryption is reversible with a key. Hashing is one-way and produces a fingerprint, not a locked version of the data.
+A small change produces a small hash change — wrong. Even a single character change produces a completely unrecognizable hash. There is no proportional relationship between the size of the change and the difference in output.
 
 ---
 
 ## 5. Where This Shows Up
 
-- Web security
-- Internal enterprise systems
-- Cloud environments
-- DevOps workflows
+PKI / Certificate signatures — the CA hashes the certificate contents and encrypts that hash with their private key to create the digital signature. Your browser re-hashes the certificate and compares to verify nothing was tampered with.
 
 ---
 
